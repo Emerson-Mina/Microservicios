@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  mensajes:
+    build: ./mensajesnodejs
+    ports:
+      - "3000:3000"
+    depends_on:
+      - notificacion
+      - notimensaje
+    networks:
+      - backend
+
+  notificacion:
+    build: ./notificacionnodejs
+    ports:
+      - "3002:3002"
+    networks:
+      - backend
+
+  notimensaje:
+    build: ./notimensaje
+    ports:
+      - "3003:3003"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
