@@ -50,4 +50,9 @@ Se inicia el servidor en el puerto **3003**.
 ---
 
 
+### 6️⃣ Imagen de Despliegue
+Salida exitosa atravez de la terminal
+
+![Vista previa del proyecto](../images/notimensaje.png) 
+---
 
