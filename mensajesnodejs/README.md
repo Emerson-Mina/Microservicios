@@ -121,5 +121,11 @@ El servidor se ejecuta en el puerto 3000.
 
 ---
 
-## 🐳 Uso de Docker
-Se utiliza **Docker** para contenerizar el microservicio, lo que permite desplegarlo de manera rápida y eficiente en diferentes entornos sin preocuparse por las configuraciones específicas del sistema operativo. Mediante **Docker Compose**, se facilita la orquestación del servicio junto con otros microservicios relacionados, asegurando su correcto funcionamiento y comunicación dentro de una red aislada.
+## 🔟 🐳 Uso de Docker
+Se utiliza **Docker** para contenerizar el microservicio, lo que permite desplegarlo de manera rápida y eficiente en diferentes entornos sin preocuparse por las configuraciones específicas del sistema operativo.El uso del**Dockerfile** es para crear una crea un contendor de este microservicio Mediante **Docker Compose**, se facilita la orquestación del servicio junto con otros microservicios relacionados, asegurando su correcto funcionamiento y comunicación dentro de una red aislada.
+
+---
+### 1️⃣1️⃣ Imagen de Despliegue
+Salida de la terminal en ejecucion
+
+![Vista previa del proyecto](../images/Captura%20de%20pantalla%20de%202025-03-14%2021-01-30.png) 

@@ -49,5 +49,7 @@ El servidor se ejecuta en el puerto **3002** y queda a la espera de solicitudes.
 
 ---
 
+### 6️⃣ Imagen de Despliegue
+Salida exitosa atravez de la terminal
 
-
+![Vista previa del proyecto](../images/notificacionnodejs.png) 

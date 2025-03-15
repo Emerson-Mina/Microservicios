@@ -44,7 +44,7 @@ Se utiliza **Docker** para facilitar la ejecución y despliegue de los microserv
  cd microservicios
 ```
 
-### ▶️ Levantar los Servicios con Docker Compose
+### ▶️ Levantar los Servicios con Docker Compose y compila todas las imágenes relacionadas con una aplicación de Docker y luego inicia la aplicación. 
 ```sh
  docker-compose up --build
 ```
@@ -54,6 +54,10 @@ Se utiliza **Docker** para facilitar la ejecución y despliegue de los microserv
  docker-compose down
 ```
 
+### ▶️ Levantar los Servicios con Docker Compose  
+```sh
+ docker-compose up -d
+```
 Cada microservicio se ejecuta en un contenedor independiente, permitiendo escalabilidad y separación de responsabilidades.
 
 ## 📌 Endpoints Disponibles
